@@ -20,13 +20,11 @@ Python as a Data base instead of a traditional one with better fidelity.
   * `source ./bin/activate`
     * Console prompt should be like `(Py-Base) machine-name@user-name$` 
 
-###Tip:
-
-`$run virtualenv freeze > requirements.txt`
-    * [To create a list of all the installed modules]
-    
+### Tip:
+- To create a list of all the installed modules
+`$run virtualenv freeze > requirements.txt` 
+- To install from a reqirements.txt    
 `$ pip freeze > requirements.txt`
-    * [To install from a reqirements.txt]
 
  
 ## Testing installation
